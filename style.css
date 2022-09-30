@@ -1,0 +1,151 @@
+body{background: white;
+	    text-align: center;
+}
+p{font-family: 'Inter Tight', sans-serif;}
+.logo{Object-fit:  cover; 
+width: 20%;
+}
+
+.spacer4{
+	height: 75px;
+	background: white;
+}
+.spacer{
+	height: 3px;
+	background: black;
+}
+
+.intro-video{
+	object-fit: cover;
+	width: 100%;
+}
+#my-video{
+	padding: 0;
+}
+
+.banner{
+	Object-fit:  cover; 
+	width: 100%;
+}
+
+
+.heading1{
+	height: 10%;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background: #8C8383;
+	margin-top: -6px;
+}
+
+
+.heading1:hover{
+	background: #b22e20;
+}
+#heading1{object-fit: cover;
+width: 70%;
+margin-left: 15%;
+}
+
+.group1{display: flex;
+padding-top: 2%;
+padding-bottom: 2%;
+align-items: center;}
+.photo-left{
+	margin-left: 5%;
+	Border-radius: 20%; 
+	object-fit: cover;
+}
+.text-right{
+	padding-top: 3%;
+	text-align: center;
+	margin-left: 3%;
+	font-size: 24px;
+	font: black;
+	margin-right: 2%;
+}
+.line-black{
+	height: 3px;
+	margin-left: 20%;
+	margin-right: 5%;
+	background: black;
+}
+.heading2{height: 10%;
+width: 100%;
+padding-top: 1%;
+padding-bottom: 1%;
+background: #8C8383;}
+.heading2:hover{background: #b22e20;
+}
+#heading2{object-fit: cover;
+width: 70%;
+margin-left: 15%;}
+#photo-watch{
+	object-fit: cover;
+	width: 100%;
+	height: 300px;
+}
+.banner3{
+	display: flex;
+}
+.product-presentation{
+	display: flex;
+	margin-left: 10%;
+	margin-right: 20%;
+}
+.watch1{
+	padding-left: 15%;
+	object-fit: cover;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.watch2{
+	padding-left: 15%;
+	object-fit: cover;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.watch3{
+	padding-left: 15%;
+	object-fit: cover;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#watch1{
+	Border-radius: 50%;
+}
+.watch1:hover{width: 200%;}
+.watch2:hover{width: 200%;}
+.watch3:hover{width: 200%;}
+.spacer-footer{
+	height: 1px;
+	background: black;
+}
+#product{
+	font-family: 'Inter Tight', sans-serif;
+	padding-left: 10%;
+}
+@media (max-width: 950px) {
+  .text-right {
+    font-size: 14px;
+  }
+@media (max-width: 720px) {
+  .text-right {
+    font-size: 12px;
+  }
+
+ @media (max-width: 1200px) {
+  .text-right {
+    font-size: 18px;
+  }
+
+ @media (max-width: 600px) {
+  .text-right {
+    font-size: 10px;
+  }
+ 
+
